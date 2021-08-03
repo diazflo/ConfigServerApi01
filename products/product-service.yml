@@ -1,6 +1,3 @@
-
-
-
 server:
   port: ${PORT:8083}
 spring:
@@ -8,8 +5,8 @@ spring:
     mongodb:
       authentication-database: admin
       uri: mongodb+srv://dbcliente:dbcliente@cluster0.lfrvs.mongodb.net/client?retryWrites=true&w=majority
-managment: 
-  endpoint: 
-    web: 
-      exposure: 
-        include: 
+managment:
+  endpoint:
+    web:
+      exposure:
+        include:
