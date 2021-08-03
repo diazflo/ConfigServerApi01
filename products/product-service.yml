@@ -12,4 +12,4 @@ managment:
   endpoint: 
     web: 
       exposure: 
-        include: *
+        include: 
