@@ -4,7 +4,7 @@ spring:
   data:
     mongodb:
       authentication-database: admin
-      uri: mongodb+srv://bruno:bruno@cluster0.lfrvs.mongodb.net/product?retryWrites=true&w=majority
+      uri: mongodb+srv://bruno:bruno@cluster0.u1cky.mongodb.net/product?retryWrites=true&w=majority
 managment:
   endpoint:
     web:
