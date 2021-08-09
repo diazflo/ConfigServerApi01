@@ -10,3 +10,7 @@ managment:
     web:
       exposure:
         include:
+eureka: 
+  client:
+    service-url:
+      defaultZone: https://thawing-garden-19877.herokuapp.com/
