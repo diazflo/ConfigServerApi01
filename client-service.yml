@@ -13,4 +13,4 @@ managment:
 eureka: 
   client:
     service-url:
-      defaultZone: https://thawing-garden-19877.herokuapp.com/
+      defaultZone: https://thawing-garden-19877.herokuapp.com/eureka/
