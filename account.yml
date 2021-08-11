@@ -1,0 +1,16 @@
+server:
+  port: ${PORT:8085}
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      uri: mongodb+srv://bruno:bruno@cluster0.u1cky.mongodb.net/account?retryWrites=true&w=majority
+managment:
+  endpoint:
+    web:
+      exposure:
+        include:
+eureka: 
+  client:
+    service-url:
+      defaultZone: https://thawing-garden-19877.herokuapp.com/eureka/
