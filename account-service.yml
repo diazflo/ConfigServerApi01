@@ -14,3 +14,9 @@ eureka:
   client:
     service-url:
       defaultZone: https://thawing-garden-19877.herokuapp.com/eureka/
+logging:
+  level:
+    root: debug
+    org:
+      springframework:
+        web: info 
