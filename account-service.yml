@@ -16,7 +16,7 @@ eureka:
       defaultZone: https://thawing-garden-19877.herokuapp.com/eureka/
 logging:
   level:
-    root: debug
+    root: info
     org:
       springframework:
         web: info 
