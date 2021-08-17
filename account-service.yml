@@ -20,3 +20,8 @@ logging:
     org:
       springframework:
         web: info 
+value:
+  api:
+    hostname:
+      client: warm-dusk-22223.herokuapp.com
+      product: stormy-savannah-84101.herokuapp.com
