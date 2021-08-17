@@ -23,7 +23,7 @@ logging:
         data: 
           mongodb:
             core: 
-              ReactiveMongoTemplate: info
+              ReactiveMongoTemplate: DEBUG
 value:
   api:
     hostname:
