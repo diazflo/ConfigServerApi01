@@ -20,6 +20,10 @@ logging:
     org:
       springframework:
         web: info 
+        data: 
+          mongodb:
+            core: 
+              MongoTemplate: info
 value:
   api:
     hostname:
