@@ -13,6 +13,7 @@ spring:
   ##jpa:
     ##database: POSTGRESQL
   r2dbc:
+    driver: postgresql
     url: r2dbc:postgresql://localhost:5432/dbdevpointsale
     username: postgres
     password: admin
