@@ -1,0 +1,18 @@
+#CONFIGURACIONES LOCALES
+server:
+  port: ${PORT:8085}
+  servlet-path: /api/pointsale
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        web: info 
+##CONFIGURACION DATABASE
+spring:
+  ##jpa:
+    ##database: POSTGRESQL
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/dbdevpointsale
+    username: postgres
+    password: admin
