@@ -1,13 +1,17 @@
 #CONFIGURACIONES LOCALES
 server:
-  port: 8085
-  servlet-path: /api/pointsale
+  port: ${PORT:8085}
+  context-path: /api/pointsale
 logging:
   level:
     root: info
     org:
       springframework:
         web: info 
+custom:
+  value:
+    api:
+      db: $(heroku config:get DATABASE_URL -a dbdevpointsale1)
 ##CONFIGURACION DATABASE
 ##spring:
   ##jpa:
